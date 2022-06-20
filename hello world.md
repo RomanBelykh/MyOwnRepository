@@ -30,5 +30,15 @@
 * **git checkout**- команда переключающая между разными версиями
 * **git diff**- команда показывающая разницу между текущим файлом и сохраненным
 
+Больше информации по командам Git можно найти по следующим ссылкам
+
+1.https://use-web.ru/news.php?id=138&tid=3
+
+2.https://gist.github.com/stanruss/498e5f5549ecc4a44d540f7214b92063
+
+3.https://habr.com/ru/company/ruvds/blog/599929/
+
+
+
 
 
