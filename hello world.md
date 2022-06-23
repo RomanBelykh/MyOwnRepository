@@ -76,8 +76,6 @@ git checkout -b new_branch_name
 
 **git reset**
 
->>>>>>> description
-
 Больше информации по командам Git можно найти по следующим ссылкам
 
 1.https://use-web.ru/news.php?id=138&tid=3
