@@ -1,0 +1,15 @@
+html {
+    background-color: azure;
+    font-size: 15px;
+    font-family: Arial;
+}
+h1, h2 {
+    color: rgb(113, 43, 226);
+}
+p, ul{
+    color: rgb(3, 3, 165);
+    font-size: 15px;
+}
+footer{
+    color: rgb(96, 126, 126);
+}
