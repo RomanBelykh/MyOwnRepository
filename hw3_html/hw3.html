@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="JavaScript">
+        function Person(){
+            
+            let name = prompt("Введите фамилию и имя", "фамилия и имя");
+            let age = parseInt(prompt("Введите ваш возраст", "возраст"));
+            return [name,age];
+        }
+        function showMessage(a, b){
+            let message = "Фамилия и имя: " + a + "\nВаш возраст: " + String(b);
+            alert(message);
+        }
+        function ask()
+        {
+            let res = confirm("Вам нравится ваша работа?");
+            return res;
+        }
+        function Calc()
+        {
+            let a = parseInt(prompt("Теперь вам резко захотелось что-то посчитать!\nВведите первое целочисленное значение", "0"));
+            let b = parseInt(prompt("Введите второе целочисленное значение", "0"));
+            let op = prompt("Выберите операцию (+ - * /): ", "+");
+            switch (op){
+                case '+': return String(a + b);
+                case '-': return String(a - b);
+                case '*': return String(a * b);
+                case '/':
+                    if (b)
+                        return String(a / b);
+                    else
+                        return "Хотели поделить на ноль! Не получилось("
+                default: return "Сори, некорректный ввод!"
+            }
+        }
+        function notStory()
+        {
+            alert("Не лезет в голову история:(\nВзамен нашла вот скоттиш страйта:)");
+        }
+
+        let [name, age] = Person();
+        showMessage(name,age);
+        if (ask()) {
+            alert("Вы ответили, что Вам нравится ваша работа");
+        } else {
+            alert("Вы ответили, что Вам не нравится ваша работа");
+        }
+        alert(Calc());
+        notStory();
+    </script>
+    <img class="fit-picture"
+    src="//funart.pro/uploads/posts/2021-07/1626117769_41-funart-pro-p-skottish-strait-koshka-zhivotnie-krasivo-f-58.jpg">
+</body>
+</html>
